@@ -18,6 +18,7 @@ This project automates functional and UI test scenarios for the SwiftTranslator
 
 3. Install dependencies
    npm install
+   npx playwright install
 
 ## Run Tests
 npx playwright test --headed
