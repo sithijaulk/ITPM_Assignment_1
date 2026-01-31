@@ -1,0 +1,2400 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\playwright.config.js",
+    "rootDir": "C:/Users/SITHUMINI/OneDrive/Desktop/IT22273208",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/SITHUMINI/OneDrive/Desktop/IT22273208/test-results/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/SITHUMINI/OneDrive/Desktop/IT22273208",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.js"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "test-results/html-report"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/test-results.json"
+        }
+      ],
+      [
+        "list",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\translator.spec.js",
+      "file": "tests/translator.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "IT3040 Assignment: Swift Translator Automation",
+          "file": "tests/translator.spec.js",
+          "line": 46,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_0001: Simple daily sentence | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3548,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0001\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:11:48.618Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-764d5780553c3175f007",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0002: Greeting question | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9476,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0002\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:11:52.386Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-f0940bfd55968296d3bc",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0003: Imperative command | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3508,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0003\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:01.884Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-9b50b70ef84a57635fbd",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0004: Negative sentence | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3242,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0004\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:05.411Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-24ae391fbf611e7fcffc",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0005: Polite request | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3230,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0005\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:08.669Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-029ba8c03d72b4ea66a6",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0006: Compound sentence | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12506,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"අපි lunch කන්න ගෙදර යමු\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"අපි lunch කන්න ගෙදර යමු\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"අපි lunch කන්න ගෙදර යමු\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0006\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:11.917Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-5a307-ompound-sentence-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-5a307-ompound-sentence-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-5a307-ompound-sentence-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-a89ef5998b79890eedad",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0007: Past tense | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3544,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0007\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:25.727Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-a52e9ca4d7a09ad49a03",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0008: Future tense | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12463,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"අපි හෙට meeting එකට යමු\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"අපි හෙට meeting එකට යමු\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"අපි හෙට meeting එකට යමු\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    14 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0008\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:29.500Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-fd9e5-008-Future-tense-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-fd9e5-008-Future-tense-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-fd9e5-008-Future-tense-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-cc1efb618575cc7f2be7",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0009: Pronoun variation | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5790,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0009\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:43.498Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-735c176e0b587fe3cb0e",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0010: Repeated words | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 9410,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0010\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:49.530Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-1e519e5f309e959b6bdf",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0011: Daily phrase | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7309,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0011\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:12:58.956Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-1e59f8fa45f0cf3b525b",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0012: Place name | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3779,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0012\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:06.285Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-6a489f5e697ee9e9021f",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0013: Technical term | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4642,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0013\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:10.078Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-f7b1c2a57fff73c3e3b2",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0014: Question sentence | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3513,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0014\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:14.737Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-4965ac3c7a43602612ea",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0015: Informal command | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3625,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0015\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:18.264Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-ab6dc763ce3850a2eadf",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0016: Date format | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5368,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0016\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:21.904Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-6132edb52dd28dc5e341",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0017: Currency format | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4763,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0017\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:27.284Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-cb21421fd478d0d5a3b5",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0018: Time format | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6955,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0018\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:32.059Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-5060dfc826f315dfbc4f",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0019: Multiple spaces | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7949,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0019\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:39.027Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-0f642ebf0e966888a256",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0020: Line break input | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4679,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0020\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:46.988Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-6c41e8f721dad9fa53eb",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0021: Long paragraph | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4431,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0021\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:51.679Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-f6058dee334075bec854",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0022: Request form | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4341,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0022\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:13:56.124Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-85408bb1080d0a4413ab",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0023: Long paragraph | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8494,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0023\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:14:00.476Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-5327c4d5a0b384b1c809",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Pos_Fun_0024: Abbreviation handling | IT22273208",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3248,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Pos_Fun_0024\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:14:08.982Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-62aac66bcbb3720662fc",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0001: Heavy joined words | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12571,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"Incorrect conversion expected\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරෛන්නෙ\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">මමගෙදරෛන්නෙ</div>\u001b[22m\n\u001b[2m      - unexpected value \"මමගෙදරෛන්නෙ\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"Incorrect conversion expected\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරෛන්නෙ\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">මමගෙදරෛන්නෙ</div>\u001b[22m\n\u001b[2m      - unexpected value \"මමගෙදරෛන්නෙ\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"Incorrect conversion expected\"\u001b[39m\nReceived: \u001b[31m\"මමගෙදරෛන්නෙ\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">මමගෙදරෛන්නෙ</div>\u001b[22m\n\u001b[2m      - unexpected value \"මමගෙදරෛන්නෙ\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0001\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:14:12.243Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-92377-avy-joined-words-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-92377-avy-joined-words-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-92377-avy-joined-words-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-a54e35990ff5e831256d",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0002: Random symbols | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12872,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"### !!!\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">### !!!</div>\u001b[22m\n\u001b[2m      - unexpected value \"### !!!\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"### !!!\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">### !!!</div>\u001b[22m\n\u001b[2m      - unexpected value \"### !!!\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"### !!!\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">### !!!</div>\u001b[22m\n\u001b[2m      - unexpected value \"### !!!\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0002\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:14:26.111Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-c26de-2-Random-symbols-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-c26de-2-Random-symbols-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-c26de-2-Random-symbols-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-4e91b3c2475afca76ade",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0003: Slang overload | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 16854,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"\u001b[7mඅඩෝ\u001b[27m බන් මොක\u001b[7mද\u001b[27m ම\u001b[7mේ\u001b[27mක\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mado\u001b[27m බ\u001b[7m්\u001b[27mන් මොක\u001b[7mඩ\u001b[27m ම\u001b[7mෙ\u001b[27mක\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    8 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">ado බ්න් මොකඩ මෙක</div>\u001b[22m\n\u001b[2m      - unexpected value \"ado බ්න් මොකඩ මෙක\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"\u001b[7mඅඩෝ\u001b[27m බන් මොක\u001b[7mද\u001b[27m ම\u001b[7mේ\u001b[27mක\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mado\u001b[27m බ\u001b[7m්\u001b[27mන් මොක\u001b[7mඩ\u001b[27m ම\u001b[7mෙ\u001b[27mක\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    8 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">ado බ්න් මොකඩ මෙක</div>\u001b[22m\n\u001b[2m      - unexpected value \"ado බ්න් මොකඩ මෙක\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"\u001b[7mඅඩෝ\u001b[27m බන් මොක\u001b[7mද\u001b[27m ම\u001b[7mේ\u001b[27mක\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mado\u001b[27m බ\u001b[7m්\u001b[27mන් මොක\u001b[7mඩ\u001b[27m ම\u001b[7mෙ\u001b[27mක\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    8 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">ado බ්න් මොකඩ මෙක</div>\u001b[22m\n\u001b[2m      - unexpected value \"ado බ්න් මොකඩ මෙක\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0003\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:14:40.470Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-cdf93-3-Slang-overload-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-cdf93-3-Slang-overload-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-cdf93-3-Slang-overload-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-cae9d7de5b8d6e472e7a",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0004: No vowels | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 13268,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"Incorrect output\"\u001b[39m\nReceived: \u001b[31m\"m ග්ඩ්‍ර ය්න්ව්\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">m ග්ඩ්‍ර ය්න්ව්</div>\u001b[22m\n\u001b[2m      - unexpected value \"m ග්ඩ්‍ර ය්න්ව්\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"Incorrect output\"\u001b[39m\nReceived: \u001b[31m\"m ග්ඩ්‍ර ය්න්ව්\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">m ග්ඩ්‍ර ය්න්ව්</div>\u001b[22m\n\u001b[2m      - unexpected value \"m ග්ඩ්‍ර ය්න්ව්\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"Incorrect output\"\u001b[39m\nReceived: \u001b[31m\"m ග්ඩ්‍ර ය්න්ව්\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">m ග්ඩ්‍ර ය්න්ව්</div>\u001b[22m\n\u001b[2m      - unexpected value \"m ග්ඩ්‍ර ය්න්ව්\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0004\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:14:58.808Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-e03f9-n-0004-No-vowels-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-e03f9-n-0004-No-vowels-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-e03f9-n-0004-No-vowels-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-b5ef144664392ec57fc9",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0005: Numeric heavy | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12722,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No meaningful output\"\u001b[39m\nReceived: \u001b[31m\"123456\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">123456</div>\u001b[22m\n\u001b[2m      - unexpected value \"123456\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No meaningful output\"\u001b[39m\nReceived: \u001b[31m\"123456\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">123456</div>\u001b[22m\n\u001b[2m      - unexpected value \"123456\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No meaningful output\"\u001b[39m\nReceived: \u001b[31m\"123456\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    5 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">123456</div>\u001b[22m\n\u001b[2m      - unexpected value \"123456\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0005\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:15:13.549Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-59c22-05-Numeric-heavy-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-59c22-05-Numeric-heavy-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-59c22-05-Numeric-heavy-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-823685d764d8efcb8b96",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0006: Emoji input | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12932,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"😂😂\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">😂😂</div>\u001b[22m\n\u001b[2m      - unexpected value \"😂😂\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"😂😂\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">😂😂</div>\u001b[22m\n\u001b[2m      - unexpected value \"😂😂\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"😂😂\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    4 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\u001b[2m    9 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\">😂😂</div>\u001b[22m\n\u001b[2m      - unexpected value \"😂😂\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0006\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:15:27.786Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-2ec5a-0006-Emoji-input-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-2ec5a-0006-Emoji-input-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-2ec5a-0006-Emoji-input-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-41ef63c9ccb54a6dc002",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0007: Empty input | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 15844,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No output\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0007\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:15:42.219Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-a0fe4-0007-Empty-input-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-a0fe4-0007-Empty-input-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-a0fe4-0007-Empty-input-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-1128e583e8d8ce2b677c",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0008: Broken sentence | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 12661,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මම එනවා නිසා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මම එනවා නිසා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මම එනවා නිසා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0008\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:15:59.545Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-25676--Broken-sentence-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-25676--Broken-sentence-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-25676--Broken-sentence-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-8ea3a202b282c8e8a76c",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0009: Mixed casing | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 10,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 14858,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මම ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0009\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:16:13.666Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-59e12-009-Mixed-casing-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-59e12-009-Mixed-casing-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-59e12-009-Mixed-casing-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-fe9e44ccbd4fdfc67355",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_Fun_0010: English-only input | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 11,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 13110,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No Sinhala output expected\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No Sinhala output expected\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"No Sinhala output expected\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_Fun_0010\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:16:30.007Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-c394f-glish-only-input-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-c394f-glish-only-input-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-c394f-glish-only-input-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-f095e28a6058392e3930",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            },
+            {
+              "title": "Neg_UI_0001: UI reload issue | IT22273208",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [
+                    {
+                      "type": "Actual Output (Sinhala)",
+                      "description": ""
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 12,
+                      "parallelIndex": 0,
+                      "status": "failed",
+                      "duration": 13207,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මන් ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මන් ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32",
+                        "location": {
+                          "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                          "column": 32,
+                          "line": 79
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                            "column": 32,
+                            "line": 79
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  locator('div.bg-slate-50')\nExpected: \u001b[32m\"මන් ගෙදර යනවා\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 10000ms\u001b[22m\n\u001b[2m  - waiting for locator('div.bg-slate-50')\u001b[22m\n\u001b[2m    13 × locator resolved to <div class=\"w-full h-80 p-3 rounded-lg ring-1 ring-slate-300 whitespace-pre-wrap overflow-y-auto flex-grow bg-slate-50\"></div>\u001b[22m\n\u001b[2m       - unexpected value \"\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 77 |\u001b[39m       })\u001b[33m;\u001b[39m\n \u001b[90m 78 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 79 |\u001b[39m       \u001b[36mawait\u001b[39m expect(outputArea)\u001b[33m.\u001b[39mtoHaveText(scenario\u001b[33m.\u001b[39mexpected)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 80 |\u001b[39m\n \u001b[90m 81 |\u001b[39m       \u001b[90m// // 7. Verify Result (Assertions)\u001b[39m\n \u001b[90m 82 |\u001b[39m       \u001b[90m// // Note: Negative scenarios might fail this assertion, which validates the \"Failure\"\u001b[39m\u001b[0m\n\u001b[2m    at C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js:79:32\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "TC ID: Neg_UI_0001\n"
+                        },
+                        {
+                          "text": "Actual Output: \n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-31T15:16:44.618Z",
+                      "annotations": [
+                        {
+                          "type": "Actual Output (Sinhala)",
+                          "description": ""
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-81800--UI-reload-issue-IT22273208-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-81800--UI-reload-issue-IT22273208-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\test-results\\artifacts\\tests-translator-IT3040-As-81800--UI-reload-issue-IT22273208-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\Users\\SITHUMINI\\OneDrive\\Desktop\\IT22273208\\tests\\translator.spec.js",
+                        "column": 32,
+                        "line": 79
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "2900404ba802f3deb6d6-bd4d7e033d7270bdd38e",
+              "file": "tests/translator.spec.js",
+              "line": 54,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-31T15:11:47.535Z",
+    "duration": 310728.738,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 13,
+    "flaky": 0
+  }
+}
